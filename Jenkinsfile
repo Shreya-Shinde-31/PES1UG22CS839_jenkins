@@ -10,7 +10,7 @@ stages {
 //}
 stage('Build') {
 steps {
-build 'PES1UG22CS839-1'
+build 'PES1UG22CS839'
 sh 'g++ main.cpp-o output'
 }
 }
